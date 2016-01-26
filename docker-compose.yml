@@ -1,0 +1,14 @@
+---
+
+redis:
+  image: redis:3.0.3
+  ports:
+    - 6379:6379
+
+lab:
+  dockerfile: ./Dockerfile
+  build: .
+  ports:
+    - 3000:3000
+  links:
+    - redis

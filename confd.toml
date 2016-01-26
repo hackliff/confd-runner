@@ -1,0 +1,7 @@
+[template]
+src = "conf.js.tmpl"
+dest = "/tmp/myconfig.conf"
+keys = [
+  "/sample/api/port",
+  "/sample/api/msg",
+]
