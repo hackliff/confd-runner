@@ -5,3 +5,4 @@ keys = [
   "/sample/api/port",
   "/sample/api/msg",
 ]
+reload_cmd = "node /usr/src/app/app.js"
