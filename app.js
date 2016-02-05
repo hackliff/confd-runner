@@ -1,3 +1,5 @@
+/* jshint esnext: true */
+
 var koa = require('koa');
 var conf = require('./conf');
 var app = koa();

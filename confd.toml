@@ -1,7 +1,8 @@
 [template]
 src = "sample.conf.tmpl"
-dest = "/tmp/myconfig.conf"
+dest = "/app/conf.js"
 keys = [
   "/sample/api/port",
   "/sample/api/msg",
 ]
+reload_cmd = "node /app/app.js"
