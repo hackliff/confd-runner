@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "confd -backend redis -node ${REDIS_PORT_6379_TCP_ADDR}"
+    "start": "confd -backend redis -node ${REDIS_PORT_6379_TCP_ADDR}:${REDIS_PORT_6379_TCP_PORT} -interval 1"
   },
   "author": "Xavier Bruhiere",
   "license": "MIT",
