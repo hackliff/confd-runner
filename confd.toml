@@ -1,7 +1,8 @@
 [template]
-src = "conf.js.tmpl"
+src = "sample.conf.tmpl"
 dest = "/tmp/myconfig.conf"
 keys = [
   "/sample/api/port",
   "/sample/api/msg",
 ]
+reload_cmd = "supervisorctl restart all"

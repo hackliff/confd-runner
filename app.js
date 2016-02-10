@@ -1,5 +1,5 @@
 var koa = require('koa');
-var conf = require('./conf');
+var conf = require('/tmp/myconfig.conf');
 var app = koa();
 
 app.use(function *() {
